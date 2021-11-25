@@ -10,13 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
-  m_Name: Packed Assets
+  m_Name: Test Group
   m_EditorClassIdentifier: 
-  m_GroupName: Packed Assets
+  m_GroupName: Test Group
   m_Data:
     m_SerializedData: []
   m_GUID: 94e8e38ad54c7494e863b5d178b82a75
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 00fc0fdb2d708594d901ce8a2825629e
+    m_Address: Assets/Prefabs/Cube.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+  - m_GUID: fecfde308019d834eb126b57ca17e346
+    m_Address: Assets/Prefabs/Sphere.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: eda599698dbf7324c8c48d900a41d30f, type: 2}
   m_SchemaSet:
