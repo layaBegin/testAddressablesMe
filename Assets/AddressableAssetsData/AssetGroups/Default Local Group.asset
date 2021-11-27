@@ -17,8 +17,28 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 84dd405d83190bb4c99f593a35c98147
   m_SerializeEntries:
+  - m_GUID: 00fc0fdb2d708594d901ce8a2825629e
+    m_Address: Assets/Prefabs/Cube.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fecfde308019d834eb126b57ca17e346
+    m_Address: Assets/Prefabs/Sphere.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   - m_GUID: 72411bceb1f39304d9c3ab75f0561c1f
     m_Address: Assets/spriteAtlas/testSpriteAtlas.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2bc0eba9eaf8df54b8a8a22700767d1b
+    m_Address: Assets/material/cubeMaterial.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 27c390475bccf4f489d5a6292ae2a1c8
+    m_Address: Assets/material/MaterialPlane.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9fc0d4010bbf28b4594072e72b8655ab
+    m_Address: Assets/Scenes/SampleScene.unity
     m_ReadOnly: 0
     m_SerializedLabels: []
   m_ReadOnly: 0

@@ -14,15 +14,16 @@ public class AssetReferenceUtility : MonoBehaviour
     private GameObject instantiatedObject;//父物体
     private GameObject instantiatedAccessoryObject;//子物体
     //-------加载精灵----------
-    public AssetReferenceSprite newSprite;//精灵
-    private SpriteRenderer spriteRenderer;
+    //public AssetReferenceSprite newSprite;//精灵
+    //private SpriteRenderer spriteRenderer;
     //-------使用地址方式加载精灵----------
-    public string newSpriteAddress;
-    public bool useAddress;//直接使用地址加载可寻址精灵
+    //public string newSpriteAddress;
+    //public bool useAddress;//直接使用地址加载可寻址精灵
 
     public Image image;//也可以加载 UI 里的Image 
 
     //---------加载spriteAtlas中的sprite------
+    private SpriteRenderer spriteRenderer;
     public AssetReferenceAtlasedSprite newAtlasedSprite;
     public string spriteAtlasAddress;
     public string atlasedSpriteName;
@@ -32,7 +33,7 @@ public class AssetReferenceUtility : MonoBehaviour
     {
         //1, 加载方式1，加载预制体
         //Addressables.LoadAssetAsync<GameObject>(objectToLoad).Completed += ObjectLoadDone;
-        /*
+        /* 加载精灵
         spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
         newSprite.LoadAssetAsync().Completed += SpriteLoaded;
         */
